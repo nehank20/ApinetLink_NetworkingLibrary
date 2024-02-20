@@ -49,13 +49,13 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            create<MavenPublication>("release") {
+            create<MavenPublication>("myPublication") {
                 from(components["release"])
 
-                groupId = "com.github.nehank"
+                groupId = "com.example.nehankk"
                 artifactId = "api-netlink"
-                version = "1.0.8"
-                artifact("$buildDir/outputs/aar/api-netlink-release.aar")
+                version = "1.1.0"
+//                artifact("$buildDir/outputs/aar/api-netlink-release.aar")
             }
         }
     }
