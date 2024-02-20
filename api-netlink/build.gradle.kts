@@ -25,11 +25,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
 }
 
@@ -54,7 +54,7 @@ afterEvaluate {
 
                 groupId = "com.github.nehank"
                 artifactId = "api-netlink"
-                version = "1.0.3"
+                version = "1.0.4"
                 artifact("$buildDir/outputs/aar/api-netlink-release.aar")
             }
         }
