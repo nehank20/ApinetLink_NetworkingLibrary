@@ -53,8 +53,8 @@ afterEvaluate {
                 from(components["release"])
 
                 groupId = "com.github.nehank"
-                artifactId = "api-netlink-networking"
-                version = "1.0.0"
+                artifactId = "api-netlink"
+                version = "1.0.1"
             }
         }
     }
