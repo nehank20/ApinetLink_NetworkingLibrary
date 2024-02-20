@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.nehank.networking.api_netlink"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 24
@@ -54,7 +54,8 @@ afterEvaluate {
 
                 groupId = "com.github.nehank"
                 artifactId = "api-netlink"
-                version = "1.0.1"
+                version = "1.0.2"
+                artifact("$buildDir/outputs/aar/api-netlink-release.aar")
             }
         }
     }
