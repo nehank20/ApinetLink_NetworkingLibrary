@@ -54,7 +54,7 @@ afterEvaluate {
 
                 groupId = "com.github.nehank"
                 artifactId = "api-netlink"
-                version = "1.0.4"
+                version = "1.0.5"
                 artifact("$buildDir/outputs/aar/api-netlink-release.aar")
             }
         }
